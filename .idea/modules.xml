@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" filepath="$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_Liscov-Substitution-Principle/_02_Liscov-Substitution-Principle.iml" filepath="$PROJECT_DIR$/_02_Liscov-Substitution-Principle/_02_Liscov-Substitution-Principle.iml" />
     </modules>
   </component>
 </project>

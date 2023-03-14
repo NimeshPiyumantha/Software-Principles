@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_Open-Close-Principle/src/BankAppWithdrawalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_Open-Close-Principle/src/BankAppWithdrawalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_Open-Close-Principle/src/service/types/AnagiAccount.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_Liscov-Substitution-Principle/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678832779614</updated>
       <workItem from="1678832781022" duration="1331000" />
-      <workItem from="1678834147593" duration="1872000" />
+      <workItem from="1678834147593" duration="2281000" />
     </task>
     <servers />
   </component>
