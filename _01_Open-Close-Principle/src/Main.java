@@ -1,5 +1,4 @@
 import service.Account;
-import service.types.AnagiAccount;
 import service.types.CurrentAccount;
 import service.types.SalarySaverAccount;
 import service.types.SavingAccount;
@@ -46,11 +45,5 @@ public class Main {
         bankAppWithdrawalService3.depositToAccount(100000);
 
         /* This is what we called as Open / Close Principle */
-
-        Account anagiAccount= new AnagiAccount();
-        BankAppWithdrawalService bankAppWithdrawalService4= new BankAppWithdrawalService(anagiAccount);
-        bankAppWithdrawalService4.withdrawFromAccount(100);
-        bankAppWithdrawalService4.depositToAccount(2000);
-
     }
 }
