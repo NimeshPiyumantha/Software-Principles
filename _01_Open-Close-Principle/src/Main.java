@@ -15,5 +15,8 @@ public class Main {
 
         bankAppWithdrawalService.depositToCurrentAccount(100000);
         bankAppWithdrawalService.withdrawFromCurrentAccount(5000);
+
+        bankAppWithdrawalService.depositToSalarySaverAccount(200000);
+        bankAppWithdrawalService.withdrawFromSalarySaverAccount(100000);
     }
 }
