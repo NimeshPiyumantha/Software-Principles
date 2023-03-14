@@ -32,11 +32,11 @@ public class BankAppWithdrawalService {
     }
 
     *//* So here for adding a new feature I had to modify the class *//*
-     *//* So, unfortunately we have violated the Open / Close principle *//*
-     *//* Why.? *//*
-     *//* In Open/Close principle a class should be closed for modifications but opened for extensions *//*
-     *//* But here we did modifications rather than doing extensions *//*
-     *//* S0, we violate the rule */
+    *//* So, unfortunately we have violated the Open / Close principle *//*
+    *//* Why.? *//*
+    *//* In Open/Close principle a class should be closed for modifications but opened for extensions *//*
+    *//* But here we did modifications rather than doing extensions *//*
+    *//* S0, we violate the rule */
 
     Account account;
 
