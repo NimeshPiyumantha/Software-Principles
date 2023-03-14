@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Software-Principles.iml" filepath="$PROJECT_DIR$/Software-Principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" filepath="$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" />
     </modules>
   </component>
 </project>
