@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_02_Liscov-Substitution-Principle/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +14,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N1XtSF6kxskxOnRbiFwVhN2i71" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Project/Software-Principles/_01_Open-Close-Principle/src",
+    "last_opened_file_path": "D:/Project/Software-Principles/_02_Liscov-Substitution-Principle/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +43,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Software-Principles\_02_Liscov-Substitution-Principle\src" />
       <recent name="D:\Project\Software-Principles\_01_Open-Close-Principle\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -56,11 +59,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678832779614</updated>
       <workItem from="1678832781022" duration="1331000" />
-      <workItem from="1678834147593" duration="2281000" />
+      <workItem from="1678834147593" duration="3347000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
