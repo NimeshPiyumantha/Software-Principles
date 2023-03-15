@@ -1,4 +1,4 @@
-import service.Account;
+import service.custom.Withdrawable;
 
 /**
  * @author : Nimesh Piyumantha
@@ -6,9 +6,9 @@ import service.Account;
  **/
 public class BankAppWithdrawalService {
 
-    Account account;
+    Withdrawable account;
 
-    public BankAppWithdrawalService(Account account) {
+    public BankAppWithdrawalService(Withdrawable account) {
         this.account = account;
     }
 
