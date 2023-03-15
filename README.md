@@ -2,6 +2,8 @@
 
 This is to demonstrate Software Principles Implementation.
 
+[![wakatime](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53.svg)](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53)
+
 ## Project Branches Contents
  * Open Close
 
@@ -11,6 +13,10 @@ This is to demonstrate Software Principles Implementation.
 #### `git commit -m <message>`
 #### `git push --set-upstream origin <your-new-branch>`
 
+## - Move to Branches
+#### `git add .`
+#### `git stash`
+#### `git checkout <your-new-branch>`
 
 ###  
 ### Clone this repository ✅
