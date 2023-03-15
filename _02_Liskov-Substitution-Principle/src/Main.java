@@ -1,4 +1,5 @@
-import service.Account;
+import service.custom.Fixed;
+import service.custom.Withdrawable;
 import service.types.CurrentAccount;
 import service.types.FixedAccount;
 import service.types.SalarySaverAccount;
@@ -21,14 +22,14 @@ public class Main {
         /* According to Liskov-Substitution principle
          * objects of a superclass shall be replaceable with
          * Objects of its subclasses without breaking the application*/
-        Account savingAccount = new SavingAccount();
+        Withdrawable savingAccount = new SavingAccount();
 
         BankAppWithdrawalService bankAppWithdrawalService1 = new BankAppWithdrawalService(savingAccount);
         bankAppWithdrawalService1.depositToAccount(100000);
         bankAppWithdrawalService1.withdrawFromAccount(40000);
 
         /*Super class*/           /*Sub Class */
-        Account currentAccount = new CurrentAccount();
+        Withdrawable currentAccount = new CurrentAccount();
 
         BankAppWithdrawalService bankAppWithdrawalService2 = new BankAppWithdrawalService(currentAccount);
         bankAppWithdrawalService2.depositToAccount(200000);
@@ -36,7 +37,7 @@ public class Main {
 
 
         /*Super class*/           /*Sub Class */
-        Account salaryServer = new SalarySaverAccount();
+        Withdrawable salaryServer = new SalarySaverAccount();
 
         BankAppWithdrawalService bankAppWithdrawalService3 = new BankAppWithdrawalService(salaryServer);
         bankAppWithdrawalService3.depositToAccount(500000);
@@ -45,21 +46,18 @@ public class Main {
 
         /* Let's focus on this case */
         /*Super class*/           /*Sub Class */
-        Account fixedAccount = new FixedAccount(); // feels like ok
-        /* This is not ok, because it's breaking the application structure by doing this */
+        Fixed fixedAccount = new FixedAccount(); // Now everything ok
 
-        BankAppWithdrawalService bankAppWithdrawalService4 = new BankAppWithdrawalService(fixedAccount);
+        BankAppFixedDepositService bankAppWithdrawalService4 = new BankAppFixedDepositService(fixedAccount);
         bankAppWithdrawalService4.depositToAccount(1500000); // This is totally fine
-        bankAppWithdrawalService4.withdrawFromAccount(100000);// But this one..? // fixed account should not support for this feature
+        //bankAppWithdrawalService4.withdrawFromAccount(100000);// Now this feature is not available for fixed account holder
 
         /*
-         * In here there is an issue. though there is no compile error on the code, we have already violated
-         * the liskov-substitution principle
-         * How.?
-         * In liskov-Substitution principle it emphasizes that objects of a superclass shall be replaceable with
-         * Objects of its subclasses without breaking the application. In here by replacing FixedAccount for its
-         * Super Class Account, it's breaking the application structure, because fixed accounts don't own withdraw option
-         * So it's violating the Liskov-Substitution Principle
+         * To sum up,
+         * objects of a superclass shall be replaceable with
+         * Objects of its subclasses without breaking the application.
+         * Now it is achievable.
          * */
+
     }
 }
