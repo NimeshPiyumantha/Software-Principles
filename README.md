@@ -5,8 +5,12 @@ This is to demonstrate Software Principles Implementation.
 [![wakatime](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53.svg)](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53)
 
 ## Project Branches Contents
-
-* Open Close
+### SOLID
+* Single Responsible Principle
+* Open/Close Principle
+* Liskov Substitution Principle
+* Interface Segregation Principle
+* Dependency Inversion Principle
 
 ## - Create New Branch and Push It
 
