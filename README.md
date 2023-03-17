@@ -18,14 +18,14 @@ This is to demonstrate Software Principles Implementation.
 ### **Liskov Substitution Principle**
 * This principle states that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
 
-## - Create New Branch and Push It
+## - **Create New Branch and Push It**
 
 * `git checkout -b <your-new-branch>`
 * `git add .`
 * `git commit -m <message>`
 * `git push --set-upstream origin <your-new-branch>`
 
-## - Move to Branches
+## - **Move to Branches**
 
 * `git add .`
 * `git stash`
@@ -33,7 +33,7 @@ This is to demonstrate Software Principles Implementation.
 
 ###   
 
-### Clone this repository ✅
+### **Clone this repository** ✅
 
 ```md
 https://github.com/NimeshPiyumantha/Software-Principles.git
