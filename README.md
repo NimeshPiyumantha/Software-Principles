@@ -12,6 +12,10 @@ This is to demonstrate Software Principles Implementation.
 * Interface Segregation Principle
 * Dependency Inversion Principle
 
+### **Single Responsibility Principle**
+* This principle states that there should never be more than one reason for a class to change.Should have one purpose.
+
+
 ### **Open / Close Principle**
 * This Principle States that Software entities (**class,modules,functions,etc..**) should be open for extension but closed for modification.
 
