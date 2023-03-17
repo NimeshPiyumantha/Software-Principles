@@ -18,6 +18,10 @@ This is to demonstrate Software Principles Implementation.
 ### **Liskov Substitution Principle**
 * This principle states that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
 
+### **Interface Segregation Principle**
+* This principle states that Clients should not be forced to depend upon interfaces that they don't use.
+
+
 ## - **Create New Branch and Push It**
 
 * `git checkout -b <your-new-branch>`
