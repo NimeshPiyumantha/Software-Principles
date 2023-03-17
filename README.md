@@ -12,6 +12,12 @@ This is to demonstrate Software Principles Implementation.
 * Interface Segregation Principle
 * Dependency Inversion Principle
 
+### **Open / Close Principle**
+* This Principle States that Software entities (**class,modules,functions,etc..**) should be open for extension but closed for modification.
+
+### **Liskov Substitution Principle**
+* This principle states that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+
 ## - Create New Branch and Push It
 
 * `git checkout -b <your-new-branch>`
