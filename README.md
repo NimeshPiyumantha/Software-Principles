@@ -21,6 +21,11 @@ This is to demonstrate Software Principles Implementation.
 ### **Interface Segregation Principle**
 * This principle states that Clients should not be forced to depend upon interfaces that they don't use.
 
+### **Dependency Inversion Principle**
+* The Dependency Inversion Principle states that :
+  * High Level modules should not depend upon low level modules.Both should depend  upon abstractions.
+* It helps uss to develop loosely code by ensuring that high-level modules depend on abstractions rather than concrete implementations of lower-level modules.</br>
+**"The class which is performing a task with the help of other class is a High-level Class."**
 
 ## - **Create New Branch and Push It**
 
