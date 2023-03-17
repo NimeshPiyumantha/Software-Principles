@@ -2,23 +2,46 @@
 
 This is to demonstrate Software Principles Implementation.
 
+[![wakatime](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53.svg)](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/709f1609-a8ee-41f3-93c2-a1548a811e53)
+
 ## Project Branches Contents
- * Open Close
+### SOLID
+* Single Responsible Principle
+* ***Open / Close Principle***
+* Liskov Substitution Principle
+* Interface Segregation Principle
+* Dependency Inversion Principle
+
+### **Open / Close Principle**
+* This Principle States that Software entities (**class,modules,functions,etc..**) should be open for extension but closed for modification.
+
+![img_1.png](img_1.png)
 
 ## - Create New Branch and Push It
-#### `git checkout -b <your-new-branch>`
-#### `git add .`
-#### `git commit -m <message>`
-#### `git push --set-upstream origin <your-new-branch>`
 
+* `git checkout -b <your-new-branch>`
+* `git add .`
+* `git commit -m <message>`
+* `git push --set-upstream origin <your-new-branch>`
 
-###  
+## - Move to Branches
+
+* `git add .`
+* `git stash`
+* `git checkout <your-new-branch>`
+
+###   
+
 ### Clone this repository ✅
+
 ```md
 https://github.com/NimeshPiyumantha/Software-Principles.git
 ```
-##  Connect with me
+
+## Connect with me
+
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
+
 <div align="center">
  <br><b>MAIL ME</b>&nbsp;
   <a href="mailto:nimeshpiyumantha11@gmail.com">
@@ -27,8 +50,8 @@ https://github.com/NimeshPiyumantha/Software-Principles.git
 
  </div>
 
-
 ##
+
 <p align="center">
 <a href="https://twitter.com/NPiyumantha60"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="__NimeshPiyumantha__" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/nimesh-piyumantha-33736a222" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" height="30" width="40" /></a>
@@ -37,6 +60,7 @@ https://github.com/NimeshPiyumantha/Software-Principles.git
 </p>
 
 ##
+
 <div align="center">
 
 ![repo license](https://img.shields.io/github/license/NimeshPiyumantha/Software-Principles?&labelColor=black&color=3867d6&style=for-the-badge)
@@ -49,4 +73,5 @@ https://github.com/NimeshPiyumantha/Software-Principles.git
 <div align="center">
 
 #### @2023 [Nimesh Piyumantha](https://github.com/NimeshPiyumantha/), Inc.All rights reserved
+
 </div>
