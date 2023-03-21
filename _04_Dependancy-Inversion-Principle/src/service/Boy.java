@@ -5,8 +5,11 @@ package service;
  * @since : 0.1.0
  **/
 public class Boy {
+    SuperGirl girl= new Girl(); // property injection
+
     public void chatWithGirl(){
-        Girl girl = new Girl();
+        //Girl girl = new Girl(); // Violate DI Principle
+       // Now both depend on abstraction
         girl.chat();
     }
     /*The classes which are performing tasks with the help of other classes are known as High Level Classes
