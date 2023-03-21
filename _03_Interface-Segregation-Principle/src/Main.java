@@ -18,7 +18,6 @@ public class Main {
      * */
 
     public static void main(String[] args) {
-
         Bank payment = new BankPayment();
         payment.initiatePayments();
         payment.status();
