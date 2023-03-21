@@ -5,7 +5,7 @@ import service.Payment;
 import java.util.List;
 
 /**
- * @author : Sanu Vithanage
+ * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
 public class BankPayment implements Payment {
