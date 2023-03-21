@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" filepath="$PROJECT_DIR$/_01_Open-Close-Principle/_01_Open-Close-Principle.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02_Liskov-Substitution-Principle/_02_Liskov-Substitution-Principle.iml" filepath="$PROJECT_DIR$/_02_Liskov-Substitution-Principle/_02_Liskov-Substitution-Principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_Interface-Segregation-Principle/_03_Interface-Segregation-Principle.iml" filepath="$PROJECT_DIR$/_03_Interface-Segregation-Principle/_03_Interface-Segregation-Principle.iml" />
     </modules>
   </component>
 </project>
