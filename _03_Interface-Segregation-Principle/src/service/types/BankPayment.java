@@ -28,4 +28,14 @@ public class BankPayment implements Payment {
         System.out.println("Returned all payments");
         return null;
     }
+
+    @Override
+    public void initiateLoanSettlement() {
+        throw new UnsupportedOperationException("Bank Payments don't have Initial Loan Payments");
+    }
+
+    @Override
+    public void initiateRePayment() {
+        throw new UnsupportedOperationException("Bank Payments don't have Initial Re Payments");
+    }
 }

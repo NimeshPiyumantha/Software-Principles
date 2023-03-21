@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Project/Software-Principles",
+    "last_opened_file_path": "D:/Project/Software-Principles/_03_Interface-Segregation-Principle/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Software-Principles\_03_Interface-Segregation-Principle\src" />
       <recent name="D:\Project\Software-Principles\_02_Liskov-Substitution-Principle\src" />
       <recent name="D:\Project\Software-Principles\_02_Liscov-Substitution-Principle\src" />
       <recent name="D:\Project\Software-Principles\_01_Open-Close-Principle\src" />
@@ -80,7 +81,7 @@
       <workItem from="1678834147593" duration="4501000" />
       <workItem from="1678858491381" duration="807000" />
       <workItem from="1679045633604" duration="340000" />
-      <workItem from="1679400710695" duration="336000" />
+      <workItem from="1679400710695" duration="1298000" />
     </task>
     <servers />
   </component>
