@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="" />
+    <list default="true" id="b1dbd0bc-9d99-4a33-9e65-95fece4c9783" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/BankAppFixedDepositService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/BankAppWithdrawalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/custom/Fixed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/custom/Withdrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/types/CurrentAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/types/FixedAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/types/SalarySaverAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_Liskov-Substitution-Principle/service/types/SavingAccount.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
