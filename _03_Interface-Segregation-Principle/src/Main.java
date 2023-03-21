@@ -21,5 +21,9 @@ public class Main {
         payment.status();
         payment.status();
         payment.getPayments();
+
+        /* Now these methods are unwanted methods and also will lead errors */
+        payment.initiateLoanSettlement();
+        payment.initiateRePayment();
     }
 }
