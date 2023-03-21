@@ -1,6 +1,6 @@
 package service.types;
 
-import service.Payment;
+import service.cutom.Loan;
 
 import java.util.List;
 
@@ -8,15 +8,15 @@ import java.util.List;
  * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
-public class LoanPayment implements Payment {
-    @Override
-    public void initiatePayments() {
-        throw new UnsupportedOperationException("Loan Payments don't have Initial Payments");
-    }
+public class LoanPayment implements Loan {
+//    @Override
+//    public void initiatePayments() {
+//        throw new UnsupportedOperationException("Loan Payments don't have Initial Payments");
+//    }
 
     /* Now, because the payment interface has changed and more methods were added, all the implementing
-    * classes now have to implement the new methods, The problem is, implementing them is unwanted and
-    * could lead to many side effects*/
+     * classes now have to implement the new methods, The problem is, implementing them is unwanted and
+     * could lead to many side effects*/
 
     @Override
     public Object status() {

@@ -1,6 +1,6 @@
 package service.types;
 
-import service.Payment;
+import service.cutom.Bank;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import java.util.List;
  * @author : Nimesh Piyumantha
  * @since : 0.1.0
  **/
-public class BankPayment implements Payment {
+public class BankPayment implements Bank {
     @Override
     public void initiatePayments() {
         // Payment Initiate Logic
@@ -29,13 +29,13 @@ public class BankPayment implements Payment {
         return null;
     }
 
-    @Override
-    public void initiateLoanSettlement() {
-        throw new UnsupportedOperationException("Bank Payments don't have Initial Loan Payments");
-    }
-
-    @Override
-    public void initiateRePayment() {
-        throw new UnsupportedOperationException("Bank Payments don't have Initial Re Payments");
-    }
+//    @Override
+//    public void initiateLoanSettlement() {
+//        throw new UnsupportedOperationException("Bank Payments don't have Initial Loan Payments");
+//    }
+//
+//    @Override
+//    public void initiateRePayment() {
+//        throw new UnsupportedOperationException("Bank Payments don't have Initial Re Payments");
+//    }
 }
